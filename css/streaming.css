@@ -1,0 +1,66 @@
+.container {
+    width: 90%;
+    margin: auto;
+  
+    margin-top: 100px;
+    display: flex;
+}
+
+#video_frame {
+    border: 1px slid yellow;
+    width: 70%;
+    height: 500px;
+}
+
+#related_bar {
+    width: 28%;
+    display: flex;
+    height: calc(100vh - 100px);
+    overflow: auto;
+    flex-direction: column;
+    margin-left: 2%;
+    gap: 20px;
+}
+
+.video_title {
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 20px;
+    color: #fff;
+}
+
+#related_item {
+    display: flex;
+    height: 100px;
+    cursor: pointer;
+}
+
+.related_thumbnail {
+    width: 40%;
+}
+
+.related_thumbnail > img {
+    width: 100%;
+    height: 100%;
+}
+
+.related_detail {
+    width: 58%;
+    margin-left: 2%;
+}
+
+.related_title {
+    color: #fff;
+    height: 60px;
+    overflow: hidden;
+}
+
+.related_channel {
+    font-size: 14px;
+    color: #777;
+}
+
+iframe {
+    border: none;
+}
+  

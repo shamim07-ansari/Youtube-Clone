@@ -1,0 +1,141 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*:focus {
+    outline: none;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #181818;
+}
+
+/*...........Header start here.......*/
+#header {
+    width: 100%;
+    height: 60px;
+    background-color: #202020;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.logo-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+#toggler {
+    padding-right: 20px;
+    cursor: pointer;
+}
+#toggler > span {
+    font-variation-settings: "wght" 100;
+    font-size: 30px;
+    color: #fff;
+}
+.yt-logo {
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+.yt-logo > img {
+    width: 120px;
+    height: 56px;
+    gap: 10px;
+    padding:18px, 14px, 18px, 16px;
+}
+.logo-txt {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: -1.5px;
+    font-size: 25px;
+    padding-left: 5px;
+    font-weight: 500;
+    color: #fff;
+}
+.logo-txt > sup {
+    font-size: 14px;
+    font-weight: 200;
+    padding-left: 5px;
+}
+.mid-section {
+    display: flex;
+    align-items: center;
+    width: 42%;
+}
+.search-section {
+    display: flex;
+    width: 100%;
+    border: 1px solid #313131;
+    border-radius: 3px;
+}
+.search-section > input {
+    width: 100%;
+    background-color: #121212;
+    border: none;
+    padding: 6px 5px;
+    color: #fff;
+    font-size: 16px;
+}
+.search-section > input::placeholder {
+    font-size: 16px;
+    border: 3px 0 0 3px;
+}
+.search-section > button {
+    padding: 6px 24px;
+    background-color: #313131;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 3px 3px 0;
+}
+.search-section > button > span {
+    font-variation-settings: "wght" 100;
+    font-size: 26px;
+    color: #fff;
+}
+.mic {
+    margin-left: 10px;
+    cursor: pointer;
+    width: 45px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #181818;
+    color: #fff;
+}
+.mic > span {
+    font-variation-settings: "FILL" 1;
+}
+
+.profile-section {
+    width: 8%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: space-between;
+}
+.profile {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.profile > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.create-video > span,
+.bell > span {
+  font-variation-settings: "wght" 200;
+  font-size: 26px;
+  cursor: pointer;
+}
